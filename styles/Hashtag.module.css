@@ -1,0 +1,23 @@
+.htContainer {
+    background-color: rgb(38, 45, 57);
+    display:flex;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ht {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.count {
+    margin: 20px;
+    color: rgb(155, 150, 150);
+    font-size: 12px;
+    font-weight: 500;
+}

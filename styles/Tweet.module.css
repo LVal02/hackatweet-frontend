@@ -1,0 +1,111 @@
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .tweetContainer {
+    background-color: white;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+.heart {
+    color: #ccc;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.heart:hover {
+    transform: scale(1.1);
+}
+
+.liked {
+    color: #f00;
+    animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.tweetHeader {
+    display: flex;
+    align-items: center;
+}
+
+.firstName {
+    color: rgb(67, 63, 63);
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  
+  .username {
+    color:rgb(130, 129, 129);
+    font-size: 14px;
+  }
+
+  .time {
+    color:rgb(130, 129, 129);
+    font-size: 11px;
+    margin-left: 30px;
+  }
+
+  .tweetContent {
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+
+  .tweetBottom {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+align-items: center;  }
+
+  .trash {
+    color: #474444;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+
+.likeCount {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.heartLike {
+    color: #cc6464;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.heartLike:hover {
+    transform: scale(1.1);
+}
+
+.likeandcount {
+    display: flex;
+}

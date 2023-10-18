@@ -1,0 +1,88 @@
+.modal .ant-modal-content {
+    background-color: blue; /* replace with your desired color */
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+
+  
+  .contentleft {
+    grid-row-start: 1;
+    grid-row-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-image: url('/twitter_back.jpeg');
+    background-size:cover;
+
+  }
+  
+  .contentright {
+    grid-row-start: 1;
+    grid-row-end: 13;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    background-color: rgb(33, 43, 50);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+ 
+
+  .title {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .signUpBtn {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(48, 144, 179);
+    color: white;
+    font-size: 16px;
+    border: solid 1px white;
+    font-weight: 700;
+  }
+
+  .signUpBtn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 400ms;
+  }
+
+  .accountQ {
+    color: white;
+  }
+
+  .signInBtn {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: rgb(130, 186, 210);
+    font-size: 16px;
+    border: solid 1px rgb(130, 186, 210);
+    font-weight: 700;
+  }
+
+  .signInBtn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 400ms;
+    background-color: white;
+  }
+
+  .logo{
+    height: 50px;
+    width: 50px
+  }
